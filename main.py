@@ -238,8 +238,8 @@ def get_app_token(login_token):
 
 if __name__ == "__main__":
     user_mi = sys.argv[1]
-    min_1 = 100
-    max_1 = 300
+    min_1 = 10001
+    max_1 = 12000
     # 登录密码
     passwd_mi = sys.argv[2]
     user_list = user_mi.split('#')
