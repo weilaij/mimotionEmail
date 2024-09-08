@@ -237,13 +237,13 @@ def get_app_token(login_token):
 
 
 if __name__ == "__main__":
-    user_mi = sys.argv[1]
+    # user_mi = sys.argv[1/]
     min_1 = 10001
     max_1 = 12000
     # 登录密码
-    passwd_mi = sys.argv[2]
-    user_list = user_mi.split('#')
-    passwd_list = passwd_mi.split('#')
+    # passwd_mi = sys.argv[2]
+    user_list = ["weilaij@foxmail.com","13162732962"]
+    passwd_list =['jwl@@0835','jwl@@0835']
     if len(user_list) == len(passwd_list):
         for user_mi, passwd_mi in zip(user_list, passwd_list):
             main(user_mi, passwd_mi, min_1, max_1)
