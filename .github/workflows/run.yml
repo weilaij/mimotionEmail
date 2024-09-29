@@ -1,12 +1,11 @@
 name: addStep
 
 on:
-  #push:
-  #  branches: [ main ]
+  push:
+    branches: [ master ]
   #pull_request:
   #  branches: [ main ]
-  schedule:
-    - cron: '30 22 * * *'
+  
 
 jobs:
   build:
